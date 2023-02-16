@@ -3,5 +3,22 @@ h3{
 }
 
 body{
-    background-color: rgb(241, 187, 120);
+    background-image: url(/img/fundo3.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img{
+    width: 130px;
+    height: 130px;
+}
+
+#formulario-pergunta{
+    margin-top: 5vh;
 }
