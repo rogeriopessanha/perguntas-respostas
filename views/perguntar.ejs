@@ -6,7 +6,6 @@
     <%- include('partials/navbar') %>
 
     <div class="container">
-
         <div class="card" id="formulario-pergunta">
             <div class="card-header">
                 <h3>Faça sua pergunta...</h3>
@@ -14,18 +13,18 @@
 
             <div class="card-body">
                 <hr>
-                <form method="post" action="">
+                <form method="POST" action="/salvarpergunta">
                     <label for="">Titulo</label>
-                    <input type="text" placeholder="Titulo" class="form-control">
+                    <input type="text" placeholder="Titulo" class="form-control" name="titulo">
         
-                    <br> <label for="">Descrição</label>
-                    <textarea name="" id="" cols="30" rows="4" placeholder="Escreva sua pergunta" class="form-control"></textarea> <br>
+                    <br> <label for="">Assunto</label>
+                    <textarea name="assunto" id="" cols="30" rows="4" placeholder="Escreva sua pergunta" class="form-control" ></textarea> 
+                    <br>
         
-                    <button class="btn btn-success">Perguntar</button>
+                    <button type="submit" class="btn btn-success">Perguntar</button>
                 </form>
             </div>
         </div>
-
     </div>
 
     <%- include('partials/footer') %>
