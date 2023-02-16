@@ -1,9 +1,7 @@
-
-body{
-    background-color: #1685e6;
-    background: red;
+h3{
+    color: blue;
 }
 
-h1{
-    color: red;
+body{
+    background-color: rgb(241, 187, 120);
 }
