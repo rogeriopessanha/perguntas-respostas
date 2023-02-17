@@ -1,13 +1,26 @@
-h3{
-    color: blue;
-}
 
 body{
     background-image: url(/img/fundo3.jpg);
     background-repeat: no-repeat;
-    
 }
 
+h1{
+    color: #fff;
+}
+
+h3{
+    color: blue;
+}
+
+p{
+    font-size: 20px;
+    color: #fff;
+}
+
+hr{
+    color: #fff;
+    
+}
 .navbar{
     display: flex;
     justify-content: center;
