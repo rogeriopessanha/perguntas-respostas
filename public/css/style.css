@@ -9,7 +9,7 @@ h1{
 }
 
 h3{
-    color: blue;
+    color: #d01e1e;
 }
 
 p{
@@ -17,10 +17,19 @@ p{
     color: #fff;
 }
 
+textarea{
+    max-width: 450px;
+}
+
+label{
+    color: #fff;
+}
+
 hr{
     color: #fff;
     
 }
+
 .navbar{
     display: flex;
     justify-content: center;

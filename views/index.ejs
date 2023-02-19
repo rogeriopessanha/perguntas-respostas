@@ -1,4 +1,5 @@
 <%- include('partials/header') %>
+
     <body>
         <%- include('partials/navbar') %>
             <div class="container">
@@ -17,9 +18,9 @@
                         </div>
 
                         <div class="card-footer">
-                            <button class="btn btn-primary">
-                                Responder
-                            </button>
+                            <a href="/pergunta/<%= pergunta.id %>"><button class="btn btn-primary">
+                                    Responder
+                                </button></a>
 
                         </div>
                     </div>
