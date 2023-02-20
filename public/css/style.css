@@ -2,6 +2,27 @@
 body{
     background-image: url(/img/fundo3.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222;
 }
 
 h1{
@@ -9,7 +30,11 @@ h1{
 }
 
 h3{
-    color: #d01e1e;
+    color: #e81111;
+    font-size: 22px;
+    font-weight: 600;
+    /* text-align: center; */
+    margin-bottom: 20px;
 }
 
 p{
@@ -30,6 +55,13 @@ hr{
     
 }
 
+.container{
+    background-color: #e6e2e230;
+    max-width: 450px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -43,4 +75,16 @@ hr{
 
 #formulario-pergunta{
     margin-top: 5vh;
+}
+
+.footer {
+    background-color: #e6e2e20f;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.footer .credito{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
 }
