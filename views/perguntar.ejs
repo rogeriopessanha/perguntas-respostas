@@ -8,7 +8,7 @@
     <div class="container">
         <div  id="formulario-pergunta">
             <div class="card-header">
-                <h3>Faça sua pergunta...</h3>
+                <h2>Faça sua pergunta...</h2>
             </div>
 
             <div class="card-body">
@@ -18,7 +18,7 @@
                     <input type="text" placeholder="Titulo" class="form-control" name="titulo">
         
                     <br> <label for="">Assunto</label>
-                    <textarea name="assunto" id="" cols="30" rows="4" placeholder="Escreva sua pergunta" class="form-control" ></textarea> 
+                    <textarea style="resize: none" name="assunto" id="" cols="30" rows="4" placeholder="Escreva sua pergunta" class="form-control" ></textarea> 
                     <br>
         
                     <button type="submit" class="btn btn-success">Perguntar</button>
@@ -27,5 +27,6 @@
         </div>
     </div>
 
-    <%- include('partials/footer') %>
 </body>
+
+<%- include('partials/footer') %>

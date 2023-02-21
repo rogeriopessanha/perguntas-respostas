@@ -3,11 +3,12 @@ body{
     background-image: url(/img/fundo3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* background-position: center center; */
+    padding: 6em;
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 85.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
@@ -25,12 +26,45 @@ html {
     background: #222;
 }
 
+.container{
+    background-color: #e6e2e230;
+    max-width: 380px;
+    height: 50%;
+    padding: 15px;
+    margin-bottom: 35px;
+    border-radius: 4px;
+}
+
 h1{
     color: #fff;
+    background-color: #222222bb;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #d2e00e;
+    background-color: #222222bb;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h3{
-    color: #e81111;
+    color: #121111;
+    font-size: 15px;
+    font-weight: 600;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+.respo{
+    color: #fff;
     font-size: 22px;
     font-weight: 600;
     /* text-align: center; */
@@ -39,7 +73,13 @@ h3{
 
 p{
     font-size: 20px;
+    font-weight: 600;
     color: #fff;
+}
+
+.minhaResp{
+    font-size: 18px;
+    color: #000;
 }
 
 textarea{
@@ -48,6 +88,7 @@ textarea{
 
 label{
     color: #fff;
+    font-size: 20px;
 }
 
 hr{
@@ -55,11 +96,8 @@ hr{
     
 }
 
-.container{
-    background-color: #e6e2e230;
-    max-width: 450px;
-    padding: 15px;
-    border-radius: 4px;
+.btn{
+    font-size: 15px;
 }
 
 .navbar{
@@ -77,14 +115,11 @@ hr{
     margin-top: 5vh;
 }
 
-.footer {
-    background-color: #e6e2e20f;
-    padding: 15px;
-    margin-top: 20px;
-}
+@media (max-width: 450px) {
+    body{
+        padding: 1em;
+        min-height: 100vh;
+    }
 
-.footer .credito{
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
+    
 }
