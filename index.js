@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
@@ -5,6 +6,9 @@ const connection = require('./database/database')
 const Pergunta = require('./database/Pergunta')
 const Resposta = require('./database/Resposta')
 //Database
+
+const dotenv = require('dotenv')
+dotenv.config()
 
 connection.authenticate()
     .then(() => {
@@ -89,6 +93,6 @@ app.post('/responder', (req, res) => {
     })
 })
 
-app.listen(8080, () => {
-    console.log('App rodando')
+app.listen(process.env.PORT, () => {
+    console.log(`App rodando ${process.env.PORT}`)
 })
