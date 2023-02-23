@@ -3,14 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engine": {
-    "node": "v18.12.0"
-  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon",
-    "vercel-build": "npx prisma create migrate deploy"
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
